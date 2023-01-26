@@ -67,7 +67,7 @@
   .main {
     padding-top: 4rem;
     height: 785px;
-    background: url("../netflix-project/img/background.jpg") center;
+    background: url("./img/background.jpg") center;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -126,7 +126,7 @@
   .formulario button::after {
     content: "";
     display: inline-block;
-    background: url("../netflix-project/img/seta.svg");
+    background: url("./img/seta.svg");
     width: 10px;
     height: 20px;
     margin-left: 20px;
