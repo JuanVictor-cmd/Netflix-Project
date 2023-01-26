@@ -33,7 +33,7 @@ HTML E CSS Puro
 
 ## ✒️ Autores
 
-- **Juan Victor** - _Desenvolver tudo relacionado ao front-end_ - [umdesenvolvedor](https://github.com/JuanVictor-cmd)
+- **Juan Victor** - _Desenvolver tudo relacionado ao front-end_ - [Github](https://github.com/JuanVictor-cmd)
 
 ## 🎁 Expressões de gratidão
 
