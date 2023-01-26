@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Netflix</title>
+  </head>
+  <body>
+    <header class="header">
+      <img
+        src="../netflix-project/img/netflix.svg"
+        alt="Netflix-Logo"
+        draggable="false"
+      />
+      <a href="#">Entrar</a>
+    </header>
+    <main class="main">
+      <div class="texto-principal">
+        <h1>Filmes, séries e muito mais. Sem limites.</h1>
+        <p class="subtexto">Assista onde quiser. Cancele quando quiser.</p>
+        <br />
+        <p class="subtexto" id="subtexto-dois">
+          Quer assistir? Informe seu email para criar ou reiniciar sua
+          assinatura.
+        </p>
+        <form class="formulario">
+          <input type="text" placeholder="Email" />
+          <button>Vamos lá</button>
+        </form>
+      </div>
+      <div class="gradient"></div>
+    </main>
+    <!--Parte 2-->
+    <section class="section">
+      <div class="container">
+        <div class="grid">
+          <div>
+            <h1>Aproveite na TV.</h1>
+            <p>
+              Assista em Smart TVs, PlayStation, Xbox, Chromecast, Apple TV,
+              aparelhos de Blu-ray e outros aparelhos.
+            </p>
+          </div>
+          <div class="img-tv">
+            <img src="img/tv.png" alt="TV" />
+            <video class="video-tv" autoplay playsinline muted loop>
+              <source
+                src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v"
+                type="video/mp4"
+              />
+            </video>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Parte 3-->
+    <section class="watch section">
+      <div class="container">
+        <div class="grid">
+          <div>
+            <h1>Assista quando quiser.</h1>
+            <p>
+              Assista no celular, tablet, Smart TV ou notebook sem pagar a mais
+              por isso.
+            </p>
+          </div>
+          <div class="img-tv">
+            <img src="../netflix-project/img/tv-mac.png" alt="tv" />
+            <video class="video-tv" autoplay playinline muted loop>
+              <source
+                src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices.m4v"
+                type="video/mp4"
+              />
+              />
+            </video>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Parte 4-->
+    <section class="perfil section">
+      <div class="container">
+        <div class="grid">
+          <div>
+            <h1>Crie perfis para crianças.</h1>
+            <p>
+              Deixe as crianças se aventurarem com seus personagens favoritos em
+              um espaço feito só para elas, sem pagar a mais por isso.
+            </p>
+          </div>
+          <div class="img-tv">
+            <img src="../netflix-project/img/infantil.png" alt="tv" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Parte 5-->
+    <section class="download section">
+      <div class="container">
+        <div class="grid">
+          <div>
+            <h1>Baixe séries para assistir offline.</h1>
+            <p>Disponível em todos os planos, exceto no Básico com anúncios.</p>
+          </div>
+          <div class="img-tv">
+            <img src="../netflix-project/img/eleven.jpg" alt="tv" />
+            <video class="video-tv" autoplay playinline muted loop>
+              <source
+                src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v"
+                type="video/mp4"
+              />
+            </video>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <p class="subtexto" id="subtexto-dois">
+        Quer assistir? Informe seu email para criar ou reiniciar sua assinatura.
+      </p>
+      <form action="#" class="formulario">
+        <label for="email"></label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Email"
+          required
+          autocomplete="off"
+        />
+        <button>Vamos lá</button>
+      </form>
+      <p class="text-margin">
+        Copyright &copy;2023 Netflix Brasil. Todos os direitos reservados
+      </p>
+      <p class="text-margin">
+        Projeto acadêmico e pessoal realizado por Juan Victor
+      </p>
+      <a href="https://github.com/JuanVictor-cmd" target="_blank">
+        <img src="../netflix-project/img/github.svg" alt="" />
+      </a>
+    </footer>
+  </body>
+</html>
