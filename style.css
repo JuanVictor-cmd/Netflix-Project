@@ -1,3 +1,5 @@
+/* Estilo Geral */
+
 * {
     margin: 0;
     padding: 0;
@@ -16,8 +18,12 @@
   .container {
     max-width: 1130px;
     margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
   }
   
+  /* Header */
+
   .header {
     position: absolute;
     z-index: 100;
@@ -25,18 +31,21 @@
     display: flex;
     justify-content: space-between;
     max-width: 1790px;
+    padding: 0 56px;
+    box-sizing: border-box;
     top: 28px;
-    left: 56px;
   }
 
-  .logo{
-    width: 230px;
-    height: auto;
-    margin: 25px 0 25px 0;
-  }
-
-  .texto{
-    text-shadow: -3px -3px 0px black;
+  .header a {
+    display: inline-block;
+    background: #e50914;
+    color: white;
+    align-self: flex-start;
+    padding: 8px 18px;
+    text-decoration: none;
+    border-radius: 3px;
+    position: relative;
+    top: 7px;
   }
 
   .gradient {
@@ -53,16 +62,8 @@
     right: 0;
     bottom: 0;
   }
-  
-  .header a {
-    display: inline-block;
-    background: #e50914;
-    color: white;
-    align-self: flex-start;
-    padding: 8px 18px;
-    text-decoration: none;
-    border-radius: 3px;
-  }
+
+  /* Main */
   
   .main {
     padding-top: 4rem;
@@ -76,35 +77,43 @@
     box-sizing: border-box;
   }
 
-  .texto-principal{
+  .main h1 {
+    font-size: 64px;
     max-width: 700px;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-size: 30px;
+  }
+
+  .main p {
+    margin-top: 40px;
+    font-size: 19px;
+  }
+
+  .texto-principal{
     text-align: center;
     z-index: 1;
+    display: grid;
   }
 
   .subtexto{
     font-size: 26px;
+    margin-top: 10px
 }
 
 #subtexto-dois{
     font-size: 19px;
+    color: white;
+    padding: 5px;
+    margin: 2%;
 }
   
   .formulario{
-    display: flex;
-    position: relative;
+    display: grid;
+    grid-template-columns: 500px 250px;
     margin-top: 30px;
     margin-bottom: 10px;
 }
 
 .formulario input{
     padding: 20px 10px;
-    width: 500px;
     font-family: sans-serif;
     font-size: 18px;
     border: none;
@@ -112,8 +121,6 @@
 }
   
   .formulario button {
-    width: 205px;
-    background-color: #e50914;
     border-radius: 1px;
     background: #e50914;
     outline: none;
@@ -136,15 +143,17 @@
     background: #f40612;
   }
 
+  /* Seções */
+
   .section{
     background-color: black;
-    padding: 4rem 0;
+    padding: 3rem 0;
     border-top: 8px solid #222;
   }
   
   .section h1{
     font-size: 50px;
-    margin-bottom: 30px;
+    margin-bottom: 16px;
 }
 
 .section p{
@@ -153,7 +162,7 @@
 
 .grid{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1.1fr 1fr;
     align-items: center;
 }
 
@@ -167,10 +176,14 @@
 }
 
 .video-tv{
+    width: 100%;
+    height: 100%;
+    max-width: 73%;
+    max-height: 54%;
     position: absolute;
-    top: 89px;
-    left: 75px;
-    width: 420px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .watch .grid > div:first-child{
@@ -186,10 +199,12 @@
 }
 
 .watch .video-tv{
-    width: 360px;
-    top: 40px;
-    left: 100px;
+    max-width: 65%;
+    top: 35%;
+    bottom: 100%;
 }
+
+/* Footer */
 
 .footer{
     padding: 4rem 0 2rem 0;
@@ -200,19 +215,198 @@
     justify-content: center;
 }
 
-.footer formulario{
-    margin-top: 0;
+.footer .formulario{
+  margin-top: 0;
+}
+
+.footer p {
+  margin-top: 1rem;
+  color: #757575;
+  font-size: 13px;
 }
 
 .footer .text-margin{
-    margin: 10px;
-    color: #757575;
+  margin: 10px;
+  color: #757575;
 }
 
 .footer a{
-    width: 60px;
-    height: 60px;
-    padding: 4px;
-    display: flex;
-    margin: auto;
+  width: 60px;
+  height: 60px;
+  padding: 4px;
+  display: flex;
+  margin: auto;
+  top: 20px;
+}
+
+/* Faq */
+.faq{
+  width: 100%;
+}
+
+.faq h1{
+  text-align: center;
+}
+
+.faq-list{
+  margin: 50px auto;
+  max-width: 815px;
+  font-size: 26px;
+}
+
+.faq-question, .faq-answer{
+  background: #303030;
+}
+
+.faq-question{
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 8px;
+  margin-bottom: 1px;
+}
+
+.faq-question::after{
+  content:"";
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: url("./img/fechar.svg") no-repeat center center;
+  transform: rotate(45deg);
+}
+
+.faq-answer a{
+  min-width: 200px;
+  color: white;
+  text-align: left;
+}
+
+a{
+  display: flex;
+  position: relative;
+  
+  bottom: 35px;
+  right: 3px;
+  padding: 10px;
+}
+
+.faq-question.active::after{
+  transform: rotate(0deg);
+}
+
+.faq-answer{
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.25s cubic-bezier(0.5, 0, 0.1, 1);
+  text-align: start;
+}
+
+.faq-answer.active{
+  max-height: 1200px;
+}
+
+.faq-answer > div{
+  padding: 30px;
+}
+
+/*Responsividade*/
+
+@media (max-width: 800px){
+  .header{
+    padding: 0 15px;
+  }
+  .header img{
+    max-width: 90px;
+  }
+  .header a{
+    font-size: 14px;
+    padding: 4px 8px;
+  }
+  .main{
+    height: 500px;
+  }
+
+  .main h1{
+    font-size: 28px;
+  }
+
+  .texto-principal, .main p{
+    width: 80vw;
+  }
+
+  .main .texto-principal{
+    margin-top: 16px;
+    font-size: 18px;
+  }
+
+  .main p{
+    margin-top: 10px;
+  }
+
+  .formulario{
+    width: 100%;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin-top: 10px;
+    max-width: 80vw;
+  }
+
+  .formulario input{
+    font-size: 16px;
+    padding: 13px;
+  }
+
+  .formulario button{
+    font-size: 16px;
+    justify-self: center;
+    padding: 4px 16px 8px 16px;
+    border-radius: 2px;
+  }
+  .formulario button::after{
+    margin-left: 5px;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 6px 12px;
+  }
+
+  section h1, .section p{
+    text-align: center;
+  }
+
+  section h1{
+    font-size: 26px;
+  }
+
+  .section p{
+    font-size: 18px;
+  }
+
+  .grid{
+    grid-template-columns: 1fr;
+  }
+
+  .faq-list{
+    margin-top: 22px;
+  }
+
+  .faq-question, .faq-answer{
+    font-size: 18px;
+  }
+
+  .faq-question{
+    padding: 16px 22px;
+  }
+
+  .faq-question::after{
+    background-size: 15px;
+  }
+  
+  .faq-answer > div{
+    padding: 21px;
+  }
+
+
+
 }
