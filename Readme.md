@@ -8,6 +8,12 @@ Essas instruções permitirão que você obtenha uma cópia do projeto em opera�
 
 Consulte **[Implantação](#-implanta%C3%A7%C3%A3o)** para saber como implantar o projeto.
 
+<h2>Site</h2> 
+Projeto Netflix em tempo real:
+https://juanvictor-cmd.github.io/Netflix-Project/
+<br> <br>
+<img align="center" alt="qrcode" height="200" width="200" src="https://user-images.githubusercontent.com/84739920/215804745-6c786c0c-3ef8-49e5-9272-a694b46b329b.png">
+
 ### 📋 Pré-requisitos
 
 De que coisas você precisa para instalar o software e como instalá-lo?
