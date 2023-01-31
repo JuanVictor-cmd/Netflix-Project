@@ -8,7 +8,7 @@ Essas instruções permitirão que você obtenha uma cópia do projeto em opera�
 
 Consulte **[Implantação](#-implanta%C3%A7%C3%A3o)** para saber como implantar o projeto.
 
-Caso não deseje baixar nada em sua máquina, **Clique aqui -> https://juanvictor-cmd.github.io/Netflix-Project/
+Caso não deseje baixar nada em sua máquina, <h2>Clique aqui -></h2> https://juanvictor-cmd.github.io/Netflix-Project/
 
 ### 📋 Pré-requisitos
 
