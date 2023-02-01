@@ -1,412 +1,413 @@
 /* Estilo Geral */
 
 * {
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    font-family: sans-serif;
-    color: white;
-  }
-  
-  img {
-    display: block;
-    max-width: 100%;
-  }
-  
-  .container {
-    max-width: 1130px;
-    margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-  
-  /* Header */
+  margin: 0;
+  padding: 0;
+}
 
-  .header {
-    position: absolute;
-    z-index: 100;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    max-width: 1790px;
-    padding: 0 56px;
-    box-sizing: border-box;
-    top: 28px;
-  }
+body {
+  font-family: sans-serif;
+  color: white;
+}
 
-  .header a {
-    display: inline-block;
-    background: #e50914;
-    color: white;
-    align-self: flex-start;
-    padding: 8px 18px;
-    text-decoration: none;
-    border-radius: 3px;
-    position: relative;
-    top: 7px;
-  }
+img {
+  display: block;
+  max-width: 100%;
+}
 
-  .gradient {
-    background: rgba(0, 0, 0, 0.4);
-    background-image: linear-gradient(
-      to top,
-      rgba(0, 0, 0, 0.8) 0,
-      rgba(0, 0, 0, 0) 60%,
-      rgba(0, 0, 0, 0.8) 100%
-    );
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-  }
+.container {
+  max-width: 1130px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 
-  /* Main */
-  
-  .main {
-    padding-top: 4rem;
-    height: 785px;
-    background: url("./img/background.jpg") center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    position: relative;
-    box-sizing: border-box;
-  }
+/* Header */
 
-  .main h1 {
-    font-size: 64px;
-    max-width: 700px;
-  }
+.header {
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1790px;
+  padding: 0 56px;
+  box-sizing: border-box;
+  top: 28px;
+}
 
-  .main p {
-    margin-top: 40px;
-    font-size: 19px;
-  }
+.header a {
+  display: inline-block;
+  background: #e50914;
+  color: white;
+  align-self: flex-start;
+  padding: 8px 18px;
+  text-decoration: none;
+  border-radius: 3px;
+  position: relative;
+  top: 7px;
+}
 
-  .texto-principal{
-    text-align: center;
-    z-index: 1;
-    display: grid;
-  }
+.gradient {
+  background: rgba(0, 0, 0, 0.4);
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0,
+    rgba(0, 0, 0, 0) 60%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
 
-  .subtexto{
-    font-size: 26px;
-    margin-top: 10px
+/* Main */
+
+.main {
+  padding-top: 4rem;
+  height: 785px;
+  background: url("./img/background.jpg") center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.main h1 {
+  font-size: 64px;
+  max-width: 700px;
+  margin-left: 30px;
+}
+
+.main p {
+  margin-top: 20px;
+  font-size: 26px;
+}
+
+.texto-principal{
+  text-align: center;
+  z-index: 1;
+  display: grid;
+}
+
+.subtexto{
+  font-size: 30px;
+  margin-top: 10px
 }
 
 #subtexto-dois{
-    font-size: 19px;
-    color: white;
-    padding: 5px;
-    margin: 2%;
+  font-size: 19px;
+  color: white;
+  padding: 5px;
+  margin: 1%;
 }
-  
-  .formulario{
-    display: grid;
-    grid-template-columns: 500px 250px;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    margin-left: 10vw;
+
+.formulario{
+  display: grid;
+  grid-template-columns: 500px 250px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .formulario input{
-    padding: 20px 10px;
-    font-family: sans-serif;
-    font-size: 18px;
-    border: none;
-    outline: none;
+  padding: 20px 10px;
+  font-family: sans-serif;
+  font-size: 18px;
+  border: none;
+  outline: none;
 }
-  
-  .formulario button {
-    border-radius: 1px;
-    background: #e50914;
-    outline: none;
-    border: none;
-    color: white;
-    font-size: 30px;
-    cursor: pointer;
-  }
-  
-  .formulario button::after {
-    content: "";
-    display: inline-block;
-    background: url("./img/seta.svg");
-    width: 10px;
-    height: 20px;
-    margin-left: 20px;
-  }
-  
-  .formulario button:hover {
-    background: #f40612;
-  }
 
-  /* Seções */
+.formulario button {
+  border-radius: 1px;
+  background: #e50914;
+  outline: none;
+  border: none;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
 
-  .section{
-    background-color: black;
-    padding: 3rem 0;
-    border-top: 8px solid #222;
-  }
-  
-  .section h1{
-    font-size: 50px;
-    margin-bottom: 16px;
+.formulario button::after {
+  content: "";
+  display: inline-block;
+  background: url("./img/seta.svg");
+  width: 10px;
+  height: 20px;
+  margin-left: 20px;
+}
+
+.formulario button:hover {
+  background: #f40612;
+}
+
+/* Seções */
+
+.section{
+  background-color: black;
+  padding: 3rem 0;
+  border-top: 8px solid #222;
+}
+
+.section h1{
+  font-size: 50px;
+  margin-bottom: 16px;
 }
 
 .section p{
-    font-size: 26px;
+  font-size: 26px;
 }
 
 .grid{
-    display: grid;
-    grid-template-columns: 1.1fr 1fr;
-    align-items: center;
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  align-items: center;
 }
 
 .img-tv{
-    position: relative;
+  position: relative;
 }
 
 .img-tv img{
-    position: relative;
-    z-index: 1;
+  position: relative;
+  z-index: 1;
 }
 
 .video-tv{
-    width: 100%;
-    height: 100%;
-    max-width: 73%;
-    max-height: 54%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  max-width: 73%;
+  max-height: 54%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .watch .grid > div:first-child{
-    order: 2;
+  order: 2;
 }
 
 .download .grid > div:first-child{
-    order: 2;
+  order: 2;
 }
 
 .watch .img-tv{
-    order: 1;
+  order: 1;
 }
 
 .watch .video-tv{
-    max-width: 65%;
-    top: 35%;
-    bottom: 100%;
+  max-width: 65%;
+  top: 35%;
+  bottom: 100%;
 }
 
 /* Footer */
 
 .footer{
-    padding: 4rem 0 2rem 0;
-    background-color: black;
-    border-top: 8px solid #222;
-    text-align: center;
-    display: grid;
-    justify-content: center;
+  padding: 4rem 0 2rem 0;
+  background-color: black;
+  border-top: 8px solid #222;
+  text-align: center;
+  display: grid;
+  justify-content: center;
 }
 
 .footer .formulario{
-  margin-top: 0;
+margin-top: 0;
 }
 
 .footer p {
-  margin-top: 1rem;
-  color: #757575;
-  font-size: 13px;
+margin-top: 1rem;
+color: #757575;
+font-size: 13px;
 }
 
 .footer .text-margin{
-  margin: 10px;
-  color: #757575;
+margin: 10px;
+color: #757575;
 }
 
 .footer a{
-  width: 60px;
-  height: 60px;
-  padding: 4px;
-  display: flex;
-  margin: auto;
-  top: 20px;
+width: 60px;
+height: 60px;
+padding: 4px;
+display: flex;
+margin: auto;
+top: 20px;
 }
 
 /* Faq */
 .faq{
-  width: 100%;
+width: 100%;
 }
 
 .faq h1{
-  text-align: center;
+text-align: center;
 }
 
 .faq-list{
-  margin: 50px auto;
-  max-width: 815px;
-  font-size: 26px;
+margin: 50px auto;
+max-width: 815px;
+font-size: 26px;
 }
 
 .faq-question, .faq-answer{
-  background: #303030;
+background: #303030;
 }
 
 .faq-question{
-  padding: 20px 30px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  cursor: pointer;
-  margin-top: 8px;
-  margin-bottom: 1px;
+padding: 20px 30px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+cursor: pointer;
+margin-top: 8px;
+margin-bottom: 1px;
 }
 
 .faq-question::after{
-  content:"";
-  display: block;
-  width: 20px;
-  height: 20px;
-  background: url("./img/fechar.svg") no-repeat center center;
-  transform: rotate(45deg);
+content:"";
+display: block;
+width: 20px;
+height: 20px;
+background: url("./img/fechar.svg") no-repeat center center;
+transform: rotate(45deg);
 }
 
 .faq-answer a{
-  min-width: 200px;
-  color: white;
-  text-align: left;
+min-width: 200px;
+color: white;
+text-align: left;
 }
 
 a{
-  display: flex;
-  position: relative;
-  
-  bottom: 35px;
-  right: 3px;
-  padding: 10px;
+display: flex;
+position: relative;
+
+bottom: 35px;
+right: 3px;
+padding: 10px;
 }
 
 .faq-question.active::after{
-  transform: rotate(0deg);
+transform: rotate(0deg);
 }
 
 .faq-answer{
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.25s cubic-bezier(0.5, 0, 0.1, 1);
-  text-align: start;
+max-height: 0;
+overflow: hidden;
+transition: max-height 0.25s cubic-bezier(0.5, 0, 0.1, 1);
+text-align: start;
 }
 
 .faq-answer.active{
-  max-height: 1200px;
+max-height: 1200px;
 }
 
 .faq-answer > div{
-  padding: 30px;
+padding: 30px;
 }
 
 /*Responsividade*/
 
 @media (max-width: 800px){
-  .header{
-    padding: 0 15px;
-  }
-  .header img{
-    max-width: 90px;
-  }
-  .header a{
-    font-size: 14px;
-    padding: 4px 8px;
-  }
-  .main{
-    height: 500px;
-  }
+.header{
+  padding: 0 15px;
+}
+.header img{
+  max-width: 90px;
+}
+.header a{
+  font-size: 14px;
+  padding: 4px 8px;
+}
+.main{
+  height: 500px;
+}
 
-  .main h1{
-    font-size: 28px;
-  }
+.main h1{
+  font-size: 28px;
+}
 
-  .texto-principal, .main p{
-    width: 80vw;
-  }
+.texto-principal, .main p{
+  width: 80vw;
+}
 
-  .main .texto-principal{
-    margin-top: 16px;
-    font-size: 18px;
-  }
+.main .texto-principal{
+  margin-top: 16px;
+  font-size: 18px;
+}
 
-  .main p{
-    margin-top: 10px;
-  }
+.main p{
+  margin-top: 10px;
+}
 
-  .formulario{
-    width: 100%;
-    grid-template-columns: 1fr;
-    gap: 10px;
-    margin-top: 10px;
-    max-width: 80vw;
-  }
+.formulario{
+  width: 100%;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  margin-top: 10px;
+  max-width: 80vw;
+  margin-left: 31px
+}
 
-  .formulario input{
-    font-size: 16px;
-    padding: 13px;
-  }
+.formulario input{
+  font-size: 16px;
+  padding: 13px;
+}
 
-  .formulario button{
-    font-size: 16px;
-    justify-self: center;
-    padding: 4px 16px 8px 16px;
-    border-radius: 2px;
-  }
-  .formulario button::after{
-    margin-left: 5px;
-    background-repeat: no-repeat;
-    background-position: bottom center;
-    background-size: 6px 12px;
-  }
+.formulario button{
+  font-size: 16px;
+  justify-self: center;
+  padding: 4px 16px 8px 16px;
+  border-radius: 2px;
+}
+.formulario button::after{
+  margin-left: 5px;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: 6px 12px;
+}
 
-  section h1, .section p{
-    text-align: center;
-  }
+section h1, .section p{
+  text-align: center;
+}
 
-  section h1{
-    font-size: 26px;
-  }
+section h1{
+  font-size: 26px;
+}
 
-  .section p{
-    font-size: 18px;
-  }
+.section p{
+  font-size: 18px;
+}
 
-  .grid{
-    grid-template-columns: 1fr;
-  }
+.grid{
+  grid-template-columns: 1fr;
+}
 
-  .faq-list{
-    margin-top: 22px;
-  }
+.faq-list{
+  margin-top: 22px;
+}
 
-  .faq-question, .faq-answer{
-    font-size: 18px;
-  }
+.faq-question, .faq-answer{
+  font-size: 18px;
+}
 
-  .faq-question{
-    padding: 16px 22px;
-  }
+.faq-question{
+  padding: 16px 22px;
+}
 
-  .faq-question::after{
-    background-size: 15px;
-  }
-  
-  .faq-answer > div{
-    padding: 21px;
-  }
+.faq-question::after{
+  background-size: 15px;
+}
+
+.faq-answer > div{
+  padding: 21px;
+}
 
 
 
