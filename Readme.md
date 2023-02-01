@@ -12,7 +12,6 @@ Consulte **[Implantação](#-implanta%C3%A7%C3%A3o)** para saber como implantar 
 Projeto Netflix em tempo real:
 https://netflixclone-juanvictor-cmd.netlify.app
 <br> <br>
-<img align="center" alt="qrcode" height="200" width="200" src="https://user-images.githubusercontent.com/84739920/215889200-3e960413-cd3b-4e88-81dd-e68fee565d93.png">
 
 ### 📋 Pré-requisitos
 
