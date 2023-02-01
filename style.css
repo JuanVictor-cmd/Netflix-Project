@@ -395,8 +395,8 @@ padding: 30px;
 #formulario-two input{
   font-size: 16px;
   padding: 13px;
-  margin-right: 50px;
-  margin-left: 80px;
+  margin-right: 3vw;
+  margin-left: 10vw;
 }
 
 .formulario button{
@@ -411,8 +411,8 @@ padding: 30px;
   justify-self: center;
   padding: 4px 16px 8px 16px;
   border-radius: 2px;
-  margin-right: 11%;
-  margin-left: 20%;
+  margin-right: 3vw;
+  margin-left: 13vw;
 }
 
 .formulario button::after, .button-two::after{
