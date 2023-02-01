@@ -331,10 +331,15 @@ padding: 30px;
 
 .main h1{
   font-size: 28px;
+  margin-right: 50px;
 }
 
 .texto-principal, .main p{
   width: 80vw;
+}
+
+.subtexto{
+  margin-right: 30px ;
 }
 
 .main .texto-principal{
@@ -358,6 +363,23 @@ padding: 30px;
 .formulario input{
   font-size: 16px;
   padding: 13px;
+  margin-right: 50px;
+}
+
+#formulario-two{
+  width: 100%;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  margin-top: 10px;
+  max-width: 80vw;
+  margin-left: 31px
+}
+
+#formulario-two input{
+  font-size: 16px;
+  padding: 13px;
+  margin-right: 50px;
+  margin-left: 80px;
 }
 
 .formulario button{
@@ -365,8 +387,18 @@ padding: 30px;
   justify-self: center;
   padding: 4px 16px 8px 16px;
   border-radius: 2px;
+  margin-right: 50px;
 }
-.formulario button::after{
+.formulario .button-two{
+  font-size: 16px;
+  justify-self: center;
+  padding: 4px 16px 8px 16px;
+  border-radius: 2px;
+  margin-right: 11%;
+  margin-left: 20%;
+}
+
+.formulario button::after, .button-two::after{
   margin-left: 5px;
   background-repeat: no-repeat;
   background-position: bottom center;
