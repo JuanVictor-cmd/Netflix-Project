@@ -10,9 +10,9 @@ Consulte **[Implantação](#-implanta%C3%A7%C3%A3o)** para saber como implantar 
 
 <h2>Site</h2> 
 Projeto Netflix em tempo real:
-https://juanvictor-cmd.github.io/Netflix-Project/
+https://netflixclone-juanvictor-cmd.netlify.app
 <br> <br>
-<img align="center" alt="qrcode" height="200" width="200" src="https://user-images.githubusercontent.com/84739920/215804745-6c786c0c-3ef8-49e5-9272-a694b46b329b.png">
+<img align="center" alt="qrcode" height="200" width="200" src="https://user-images.githubusercontent.com/84739920/215889200-3e960413-cd3b-4e88-81dd-e68fee565d93.png">
 
 ### 📋 Pré-requisitos
 
@@ -20,7 +20,7 @@ De que coisas você precisa para instalar o software e como instalá-lo?
 
 ```
 Computador Desktop comum
-Ps: (Esse projeto ainda não está responsivo, recomenda-se vizualisá-lo pelo PC até que esse update aconteça.)
+
 ```
 
 ## 📦 Implantação
