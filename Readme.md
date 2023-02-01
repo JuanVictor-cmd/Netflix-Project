@@ -11,8 +11,7 @@ Consulte **[Implantação](#-implanta%C3%A7%C3%A3o)** para saber como implantar 
 <h2>Site</h2> 
 Projeto Netflix em tempo real:
 https://netflixclone-juanvictor-cmd.netlify.app
-<br> <br>
-
+<br>
 ### 📋 Pré-requisitos
 
 De que coisas você precisa para instalar o software e como instalá-lo?
