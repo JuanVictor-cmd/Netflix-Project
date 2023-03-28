@@ -10,7 +10,7 @@ Consulte **[Implantação](#-implanta%C3%A7%C3%A3o)** para saber como implantar 
 
 <h2>Clique Aqui ⬇</h2> 
 Projeto Netflix em tempo real:
-https://netflixclone-juanvictor-cmd.netlify.app
+https://netiflixclone-juanvictor-cmd.netlify.app
 
 ### 📋 Pré-requisitos
 
